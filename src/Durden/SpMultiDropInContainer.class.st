@@ -45,6 +45,11 @@ SpMultiDropInContainer >> install: aPresenter [
 	^ newPresenter
 ]
 
+{ #category : #'as yet unclassified' }
+SpMultiDropInContainer >> installedPresenters [
+	^presenters
+]
+
 { #category : #initialization }
 SpMultiDropInContainer >> newLayout [
 
